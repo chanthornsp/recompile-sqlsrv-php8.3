@@ -14,12 +14,15 @@
   tar -xvf pdo_sqlsrv-5.11.1.tgz
   ```
 
-- cd into the extracted directories
+- cd into the extracted each folder
+  -Example:
 
   ```bash
   cd sqlsrv-5.11.1
   cd pdo_sqlsrv-5.11.1
   ```
+
+## Compile the driver one at a time
 
 - Run
 
