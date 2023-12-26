@@ -3,8 +3,8 @@
 - Download the latest version of the driver from [sqlsrv](https://pecl.php.net/package/sqlsrv) and [pdo_sqlsrv](https://pecl.php.net/package/pdo_sqlsrv)
 
   ```bash
-  wget https://pecl.php.net/package/sqlsrv/5.11.1
-  wget https://pecl.php.net/package/pdo_sqlsrv/5.11.1
+  wget https://pecl.php.net/get/sqlsrv-5.11.1.tgz
+  wget https://pecl.php.net/get/pdo_sqlsrv-5.11.1.tgz
   ```
 
 - Extract the files
