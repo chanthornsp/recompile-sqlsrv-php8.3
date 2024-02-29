@@ -1,3 +1,25 @@
+# Update PHP to 8.3
+
+```bash
+sudo su
+add-apt-repository ppa:ondrej/php -y
+apt-get update
+apt-get install php8.3-dev php8.3-common php8.3-curl php-json php8.3-mbstring php8.3-mysql php8.3-xml php8.3-zip php8.3-imagick php8.3-gd -y --allow-unauthenticated
+```
+
+# Set Default php version
+
+```bash
+sudo update-alternatives --config php
+sudo update-alternatives --config phar
+sudo update-alternatives --config phar.phar
+sudo update-alternatives --config phpize
+```
+
+# SQL Server Drivers Setup Reference
+
+https://learn.microsoft.com/en-us/sql/connect/php/installation-tutorial-linux-mac?view=sql-server-ver16#installing-on-ubuntu
+
 # Recompile sqlsrv and pdo_sqlsrv for PHP 8.3
 
 - Download the latest version of the driver from [sqlsrv](https://pecl.php.net/package/sqlsrv) and [pdo_sqlsrv](https://pecl.php.net/package/pdo_sqlsrv)
@@ -77,12 +99,3 @@
   ```bash
   sudo service apache2 restart
   ```
-
-# Set Default php version
-
-```bash
-sudo update-alternatives --config php
-sudo update-alternatives --config phar
-sudo update-alternatives --config phar.phar
-sudo update-alternatives --config phpize
-```
